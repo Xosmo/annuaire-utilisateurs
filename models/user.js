@@ -3,20 +3,16 @@ const mongoose = require('mongoose')
 // Schema d'un utilisateur dans la base de données
 const userSchema = new mongoose.Schema({
     prenom: {
-        type: String,
-        required: true
+        type: String
     },
     nom: {
-        type: String,
-        required: true
+        type: String
     },
     email: {
-        type: String,
-        required: true
+        type: String
     },
     mdp: {
-        type: String,
-        required: true
+        type: String
     }
 })
 
